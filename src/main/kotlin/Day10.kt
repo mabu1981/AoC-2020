@@ -120,7 +120,6 @@ class Day10 {
     }
 
     fun run2() : Long {
-        val input = testInput
         val sortedInput = input.sortedBy { it }
 
         var count = LongArray(sortedInput.size) { 0L }

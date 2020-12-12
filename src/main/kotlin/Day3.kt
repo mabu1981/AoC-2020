@@ -326,7 +326,7 @@ class Day3 {
     }
 
     fun run() : Int {
-        val lines = input.split("\n")
+        val lines = input.lines()
 
         val RIGHT = 3
         val DOWN = 1
